@@ -1,7 +1,10 @@
 # FemtoDet
 Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for energy versus performance tradeoffs>>
 
-# If you find the code useful for your research, please consider citing:
+<br />
+
+# References
+If you find the code useful for your research, please consider citing:
 ```bib
 @misc{tu2023femtodet,
       title={FemtoDet: An Object Detection Baseline for Energy Versus Performance Tradeoffs}, 
