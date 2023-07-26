@@ -8,7 +8,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 
 2. Dataset preparation.
    
-   Then, you can move all images to ./data/voc2coco/jpeg/*; you can use our converted coco format [annotation files](https://pan.baidu.com/s/1SLgZd_2cLhLFC54lLM3sHg?pwd=umbz)(umbz) and put these files to ./data/voc2coco/annotations/*; finally, the directory structure is
+   Then, you can move all images to ./data/voc2coco/jpeg/*;you can use our converted coco format [annotation files](https://pan.baidu.com/s/1SLgZd_2cLhLFC54lLM3sHg?pwd=umbz)(umbz) and put these files to ./data/voc2coco/annotations/*; finally, the directory structure is
 
 ```
 *data/voc2coco
@@ -29,7 +29,7 @@ FemtoDet/weights/*
 
 # Training
 ```
-bash ./configs/train_femtodet.sh 4
+bash ./tools/train_femtodet.sh 4
 ```
 
 # References
