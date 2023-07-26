@@ -8,7 +8,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 * Torchvision 0.10.1+cu111
 * mmcv-full 1.4.2
   
-# Preparation
+### Preparation
 1. Download the dataset.
    
    We mainly train FemtoDet on [Pascal VOC 0712](http://host.robots.ox.ac.uk/pascal/VOC/), you should firstly download the datasets. By default, we assume the dataset is stored in ./data/.
@@ -34,12 +34,12 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 FemtoDet/weights/*
 ```
 
-# Training
+### Training
 ```
 bash ./tools/train_femtodet.sh 4
 ```
 
-# References
+### References
 If you find the code useful for your research, please consider citing:
 ```bib
 @misc{tu2023femtodet,
