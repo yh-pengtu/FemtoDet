@@ -3,7 +3,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 
 # Preparation
 1. Download the dataset.
-   We mainly train FemtoDet on Pascal VOC 0712, you should firstly download the datasets. By default, we assume the dataset is stored in ./data/.
+   We mainly train FemtoDet on [Pascal VOC 0712](http://host.robots.ox.ac.uk/pascal/VOC/), you should firstly download the datasets. By default, we assume the dataset is stored in ./data/.
 
 # References
 If you find the code useful for your research, please consider citing:
