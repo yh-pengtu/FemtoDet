@@ -159,13 +159,13 @@ data = dict(
     val=dict(
         type='CocoDataset',
         classes=classes,
-        ann_file=data_root+'annotations/testvoc2_annotations.json',
+        ann_file=data_root+'annotations/testvoc_annotations.json',
         img_prefix=data_root+'jpeg',
         pipeline=test_pipeline),
     test=dict(
         type='CocoDataset',
         classes=classes,
-        ann_file=data_root+'annotations/testvoc2_annotations.json',
+        ann_file=data_root+'annotations/testvoc_annotations.json',
         img_prefix=data_root+'jpeg',
         pipeline=test_pipeline))
 
