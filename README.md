@@ -22,7 +22,11 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 
 3. Download the initialized models.
    We trained our designed backbone on ImageNet 1k, and used it for [the inite weights](https://pan.baidu.com/s/1DhrT675Va2wcPAi5aUc-bg?pwd=6tns)(6tns) of FemtoDet.
-   
+
+```
+FemtoDet/weights/*
+```
+
 # References
 If you find the code useful for your research, please consider citing:
 ```bib
