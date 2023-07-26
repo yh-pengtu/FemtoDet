@@ -12,12 +12,12 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 
 ```
 *data/voc2coco
-	*jpeg
-		*2008_003841.jpg
-      *...
-	*annotations
-		*trainvoc_annotations.json
-		*testvoc_annotations.json
+    *jpeg
+        *2008_003841.jpg
+        *...
+    *annotations
+        *trainvoc_annotations.json
+        *testvoc_annotations.json
 ```
 
 # References
