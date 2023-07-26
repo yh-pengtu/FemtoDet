@@ -1,7 +1,7 @@
 #dataset
 classes = ('aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 
            'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor')
-data_root = './data/voc2coco/'#voc2coco:/alg-data/ftp-upload/datasets/voc2coco/
+data_root = './data/voc2coco/'
 #model
 img_scale = (640, 640)
 widen_factor=0.25
@@ -67,8 +67,7 @@ model = dict(
             prefix='backbone',
             checkpoint=pretrain_weight)),
     neck=dict(
-        type='SharedPAN',
-        cd=False,
+        type='SharedNeck',
         in_channels=neck_in_chanels,
         out_channels=headfeat_channel,
         fixed_size_idx=1,
