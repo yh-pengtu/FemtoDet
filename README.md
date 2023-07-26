@@ -27,6 +27,11 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 FemtoDet/weights/*
 ```
 
+# Training
+```
+bash ./configs/train_femtodet.sh 4
+```
+
 # References
 If you find the code useful for your research, please consider citing:
 ```bib
