@@ -6,7 +6,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
    
    We mainly train FemtoDet on [Pascal VOC 0712](http://host.robots.ox.ac.uk/pascal/VOC/), you should firstly download the datasets. By default, we assume the dataset is stored in ./data/.
 
-3. Dataset preparation.
+2. Dataset preparation.
    
    Then, you can move all images to ./data/voc2coco/jpeg/*; you can use our converted coco format [annotation files](https://pan.baidu.com/s/1SLgZd_2cLhLFC54lLM3sHg?pwd=umbz) (umbz) and put these files to ./data/voc2coco/annotations/*; finally, the directory structure is
 
@@ -20,6 +20,9 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
         *testvoc_annotations.json
 ```
 
+3. Download the initialized models.
+   We trained our designed backbone on ImageNet 1k, and used it for [the inite weights](https://pan.baidu.com/s/1DhrT675Va2wcPAi5aUc-bg?pwd=6tns)(6tns) of FemtoDet.
+   
 # References
 If you find the code useful for your research, please consider citing:
 ```bib
