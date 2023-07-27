@@ -42,18 +42,21 @@ FemtoDet/weights/*
 bash ./tools/train_femtodet.sh 4
 ```
 
-### Results and Models
+### Results (trained on VOC) and Models
 
-|  Detector  | Params | box AP50 |              Config                    |   Download     |
---------------------------------------------------------------------------------------------
-|            |        |          | ./configs/femtoDet/femtodet_0stage.py  |                |
-                      ----------------------------------------------------------------------
-|  FemtoDet  | 68.77k |          | ./configs/femtoDet/femtodet_1stage.py  |                |
-                      ----------------------------------------------------------------------
-|            |        |          | ./configs/femtoDet/femtodet_2stage.py  |                |
-                      ----------------------------------------------------------------------
-|            |        |          | ./configs/femtoDet/femtodet_3stage.py  |                |
---------------------------------------------------------------------------------------------
+[trained model and logs download](https://pan.baidu.com/s/1IpolHLSQBuEGXrbs_c80jg?pwd=x38z) (x38z)
+```
+|  Detector  | Params | box AP50 |              Config                    | 
+---------------------------------------------------------------------------
+|            |        |   37.1   | ./configs/femtoDet/femtodet_0stage.py  |
+                      -----------------------------------------------------
+|  FemtoDet  | 68.77k |   40.4   | ./configs/femtoDet/femtodet_1stage.py  |
+                      -----------------------------------------------------
+|            |        |   44.4   | ./configs/femtoDet/femtodet_2stage.py  |
+                      -----------------------------------------------------
+|            |        |   46.5   | ./configs/femtoDet/femtodet_3stage.py  |
+---------------------------------------------------------------------------
+```
 
 ### References
 If you find the code useful for your research, please consider citing:
