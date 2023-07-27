@@ -44,7 +44,6 @@ bash ./tools/train_femtodet.sh 4
 
 ### Results and Models
 
-```
 |  Detector  | Params | box AP50 |              Config                    |   Download     |
 --------------------------------------------------------------------------------------------
 |            |        |          | ./configs/femtoDet/femtodet_0stage.py  |                |
@@ -55,7 +54,6 @@ bash ./tools/train_femtodet.sh 4
                       ----------------------------------------------------------------------
 |            |        |          | ./configs/femtoDet/femtodet_3stage.py  |                |
 --------------------------------------------------------------------------------------------
-```
 
 ### References
 If you find the code useful for your research, please consider citing:
