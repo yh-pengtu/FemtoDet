@@ -8,7 +8,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 * mmcv-full 1.4.2
 
 ### Installation
-Do it as mmdetection had done.
+Do it as [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.23.0) had done.
 
 ### Preparation
 1. Download the dataset.
