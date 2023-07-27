@@ -6,6 +6,7 @@ Official codes of ICCV2023 paper: <<Femtodet: an object detection baseline for e
 * Torch 1.9.1+cu111
 * Torchvision 0.10.1+cu111
 * mmcv-full 1.4.2
+* mmdet 2.23.0
 
 ### Installation
 Do it as [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.23.0) had done.
