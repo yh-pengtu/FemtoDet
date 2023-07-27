@@ -42,6 +42,10 @@ FemtoDet/weights/*
 bash ./tools/train_femtodet.sh 4
 ```
 
+### Results and Models
+|  Detector  |Params | box AP50 |                  Config                  |   Download     |
+
+
 ### References
 If you find the code useful for your research, please consider citing:
 ```bib
