@@ -43,9 +43,9 @@ bash ./tools/train_femtodet.sh 4
 ```
 
 ### Results and Models
-|  Detector  | Params | box AP50 |                  Config                  |   Download     |
-----------------------------------------------------------------------------------------------
-|  FemtoDet  | 68.77k |          | [config](./configs/femtoDet/yolox_tiny_8xb8-300e_coco.py)
+|  Detector  | Params | box AP50 |                  Config                          |   Download     |
+------------------------------------------------------------------------------------------------------
+|  FemtoDet  | 68.77k |          | [config](./configs/femtoDet/femtodet_0stage.py)  |                |
 
 
 ### References
