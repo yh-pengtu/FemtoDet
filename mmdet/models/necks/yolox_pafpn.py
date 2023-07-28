@@ -219,8 +219,8 @@ class SharedNeck(BaseModule):
 
             self.lateral_convs.append(l_conv)
 
-        if self.ca:
-            self.ca = CoordAttention(out_channels, out_channels, norm_cfg=norm_cfg, act_cfg=dict(type='HSwish'),)
+        # if self.ca:
+        #     self.ca = CoordAttention(out_channels, out_channels, norm_cfg=norm_cfg, act_cfg=dict(type='HSwish'),)
 
         self.stacked_convs = nn.ModuleList()
         if num_outs == 1 and add:
@@ -281,8 +281,8 @@ class SharedNeck(BaseModule):
         elif self.num_outs == 1 and self.add:
             outs0 = torch.stack(outs0, 1)
             outs0 = torch.sum(outs0, 1)
-            if self.ca:
-                outs0 = self.ca(outs0)
+            # if self.ca:
+            #     outs0 = self.ca(outs0)
 
             outs = [self.stacked_convs(outs0)]
         else:
