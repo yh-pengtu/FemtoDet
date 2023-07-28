@@ -192,7 +192,7 @@ class SharedNeck(BaseModule):
         init_cfg=dict(
             type='Xavier', layer='Conv2d', distribution='uniform')
     ):
-        super(SharedPAN, self).__init__(init_cfg)
+        super(SharedNeck, self).__init__(init_cfg)
 
         self.num_ins = len(in_channels)
         self.num_outs = num_outs
