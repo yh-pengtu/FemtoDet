@@ -61,6 +61,14 @@ bash ./tools/train_femtodet.sh 4
 ### References
 If you find the code useful for your research, please consider citing:
 ```bib
+@InProceedings{Tu_2023_ICCV,
+    author    = {Tu, Peng and Xie, Xu and Ai, Guo and Li, Yuexiang and Huang, Yawen and Zheng, Yefeng},
+    title     = {FemtoDet: An Object Detection Baseline for Energy Versus Performance Tradeoffs},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {13318-13327}
+}
 @misc{tu2023femtodet,
       title={FemtoDet: An Object Detection Baseline for Energy Versus Performance Tradeoffs}, 
       author={Peng Tu and Xu Xie and Guo AI and Yuexiang Li and Yawen Huang and Yefeng Zheng},
