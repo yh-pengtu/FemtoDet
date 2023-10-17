@@ -18,7 +18,7 @@ Do it as [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.23.0) h
 
 2. Dataset preparation.
    
-   Then, you can move all images to ./data/voc2coco/jpeg/*;you can use our converted coco format [annotation files](https://pan.baidu.com/s/1SLgZd_2cLhLFC54lLM3sHg?pwd=umbz)(umbz) and put these files to ./data/voc2coco/annotations/*; finally, the directory structure is
+   Then, you can move all images to ./data/voc2coco/jpeg/*;you can use our converted coco format [annotation files](https://pan.baidu.com/s/1JGsvlvzPkb5nxGBaRSD7ng?pwd=hx8k)(hx8k) and put these files to ./data/voc2coco/annotations/*; finally, the directory structure is
 
 ```
 *data/voc2coco
