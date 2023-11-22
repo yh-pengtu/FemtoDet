@@ -31,7 +31,8 @@ Do it as [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.23.0) h
 ```
 
 3. Download the initialized models.
-   We trained our designed backbone on ImageNet 1k, and used it for [the inite weights](https://pan.baidu.com/s/1DhrT675Va2wcPAi5aUc-bg?pwd=6tns)(6tns) of FemtoDet.
+   (https://pan.baidu.com/s/1JGsvlvzPkb5nxGBaRSD7ng?pwd=hx8k 提取码：hx8k)
+   We trained our designed backbone on ImageNet 1k, and used it for [the inite weights](https://pan.baidu.com/s/1JGsvlvzPkb5nxGBaRSD7ng?pwd=hx8k))(hx8k) of FemtoDet.
 
 ```
 FemtoDet/weights/*
