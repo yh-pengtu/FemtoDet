@@ -45,7 +45,7 @@ bash ./tools/train_femtodet.sh 4
 
 ### Results (trained on VOC) and Models
 
-[trained model and logs download](https://pan.baidu.com/s/1IpolHLSQBuEGXrbs_c80jg?pwd=x38z) (x38z)
+[trained model and logs download](https://pan.baidu.com/s/1IBpYyhhGA-kg71S_1OJpjA?pwd=7aok) (7aok)
 ```
 |  Detector  | Params | box AP50 |              Config                    | 
 ---------------------------------------------------------------------------
