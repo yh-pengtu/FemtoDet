@@ -59,6 +59,7 @@ bash ./tools/train_femtodet.sh 4
 ---------------------------------------------------------------------------
 ```
 
+Deployment details, e.g., exporting to onnx format can see this link(https://github.com/xiexu666/FemtoDet_deploy);
 ### References
 If you find the code useful for your research, please consider citing:
 ```bib
