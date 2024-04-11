@@ -59,7 +59,7 @@ bash ./tools/train_femtodet.sh 4
 ---------------------------------------------------------------------------
 ```
 
-### Links of [Deployment (exploring to onnx)](https://github.com/xiexu666/FemtoDet_deploy) and [FemtoDet in mmdet3 version](https://github.com/xiexu666/FemtoDet_mmdet3)
+### Links of [Deployment (exploring to onnx)](https://github.com/xiexu666/FemtoDet_deploy) and [FemtoDet in mmdet3](https://github.com/xiexu666/FemtoDet_mmdet3) versions.
 
 ### References
 If you find the code useful for your research, please consider citing:
